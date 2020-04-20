@@ -5,10 +5,13 @@ import socket
 import json
 
 
-consumer_key = 'Jp7655JCIjrN51yPJpAepiy37'
-consumer_secret = 'aw5JgGILX8jBlFz5JvRJa4ecqy5MUpX44b6va2eGyfOlj4JZdQ'
-access_token = '1044284098175528960-rXUxJYrFPfWvGiS2KLkWqGNUrNGkgl'
-access_secret = '15Z9Xmt5ERVPkT79GCehVpvBKG8QAGjJtHJuOUsRrAX40'
+''' Fill in the the below specified keys to get access to live stream through twitter API'''
+
+consumer_key = ''           # Add your consumer key access
+consumer_secret = ''        # Add ur consumer secret key
+access_token = ''           # Add access token
+access_secret = ''          # Add access secret key
+
 
 class TweetsListener(StreamListener):
 
